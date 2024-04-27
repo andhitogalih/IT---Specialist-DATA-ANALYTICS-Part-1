@@ -13,6 +13,7 @@ This repository is designed to make learning Data Analist for students easy and 
 Data analysts are responsible for collecting, processing and doing statistical analyses of data. They translate sales figures, market research, logistics, or transportation costs in plain English. They regulate, normalize, and calibrate the data so that it can be easily extracted and used.
 The role of a data analyst is highly transferable and employment opportunities are available in both private and public sectors, including finance, consulting, manufacturing, pharmaceuticals, government and education.
 ## Concept Data
+Data is a collection of information gathered by observations, measurements, research or analysis. They may consist of facts, numbers, names, figures or even description of things. Data is organized in the form of graphs, charts or tables.
 
 ## Type of data variabel
 ### Category
@@ -46,15 +47,32 @@ Metadata is defined as the data providing information about one or more aspects 
 ![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Dimention.png) 
 
 ## Current Data Situation (Big Data)
+Big data refers to large, complex, and diverse collections of structured, semi-structured, and unstructured data that continue to grow exponentially over time. . 
+
+Big data often exhibits three main characteristics known as the "3V": volume (large), velocity (fast), and variety (diverse). This means data that is large in volume, arrives at high speed, and comes in various types and formats.
 
 ## Data Cleansing
+Data cleansing in Python refers to the process of identifying and correcting errors, inconsistencies, and inaccuracies in a dataset to improve its quality and reliability for analysis or other purposes. It involves various tasks such as handling missing values, removing duplicates, correcting inaccuracies, and standardizing formats.
+
 ### Handling Missing Data
+Identifying and handling missing values in the dataset, either by removing them, imputing them with a suitable value, or using more advanced techniques like interpolation.
+
 ## Data Manipulation
+Data manipulation refers to the process of transforming and restructuring data to make it suitable for analysis or visualization. Pivot tables are a common technique used in data manipulation, especially for summarizing and aggregating data in a structured format.
 ### Pivot
+In Python, you can create pivot tables using various libraries, but one of the most commonly used ones is pandas. Pandas is a powerful data manipulation library that provides easy-to-use data structures and data analysis tools.
 ### Grouping
+In Python, you can use the groupby() method of pandas to perform a “group by” operation on your DataFrame. It allows you to group data based on specific values in one or more columns and then apply aggregation functions to each group.
 ### Crosstab
+In Python, you can use the crosstab() function from the pandas library to create a crosstable, also known as a contingency table. This function calculates a simple cross table of two or more factors. This is very useful for analyzing categorical data and understanding the relationships between different variables.
 ### Dummies
+Dummies or dummy variables are binary representations of a categorical variable in statistical analysis and machine learning. In Python, especially using the pandas library, you can create dummy variables easily using the get_dummies() function.
+The result will be a new Data Frame with dummy variables for each unique value in a column. The dummy variable will have the value 1 if the sample has the appropriate value in the category, and 0 if not. Dummy variables help in introducing categorical variables into prediction models, especially in machine learning algorithms that require numerical input.
 ### Sort
+Sorting data in Python refers to arranging the elements of a data structure, such as lists, arrays, or DataFrames, in a specified order. This order can be ascending (from smallest to largest) or descending (from largest to smallest), depending on needs.
 ### Rename
+The rename function in Python, especially when used with pandas, is used to rename a column or index in a DataFrame.
 ### Concat
+In Python, especially when working with pandas, the concat() function is used to combine two or more pandas objects along a specific axis (usually a row or column). This function is useful for combining data from several sources into one DataFrame.
 ### Merge
+In Python, especially when working with pandas, the merge() function is used to combine two DataFrames by merging them based on one or more keys. This function is similar to SQL join operation.
