@@ -81,6 +81,9 @@ In Python, you can create pivot tables using various libraries, but one of the m
 
 ![alt text](https://github.com/andhitogalih/IT---Specialist-DATA-ANALYTICS-Part-1/blob/main/Public/Image/Pivot.png) 
 
+![alt text](https://github.com/andhitogalih/IT---Specialist-DATA-ANALYTICS-Part-1/blob/main/Public/Image/Pivot%202.png)
+
+
 
 ### Grouping
 In Python, you can use the groupby() method of pandas to perform a “group by” operation on your DataFrame. It allows you to group data based on specific values in one or more columns and then apply aggregation functions to each group.
